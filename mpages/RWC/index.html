@@ -1,0 +1,96 @@
+<!--
+Card Metaphor for Mobile Webpage.
+Used for Kevin Cadena's Mobile Portfolio Project Display
+Check it Out at Kevincadena.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" type="text/css" href="../../css/card-style.css">
+    <script>
+      function BlockMove(event) {
+        event.preventDefault();
+      }
+    </script>
+    <script src="../../js/mobile-detect.min.js"></script>
+
+  </head>
+  <body ontouchmove="BlockMove(event);">
+    <div class="wrapper" id="deck-wrapper">
+      <div id="deck" class="deck">
+
+
+<!-- Title Card -->
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-title">Responsive Web Candy</div>
+
+            <div class="project-info">
+              <h3>Media Query Web Art</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>Responsive Web Candy is a single serve webpage that experiments with responsive design and jquery to create changing and live forms. Resize the window and click on the elements for fun! View Website on a desktop! </p>
+            </div>
+          </div>
+        </div>
+
+<!--
+Empty Cards for images
+-->
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RC1.jpg">
+              <p id="caption">XL Queries</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RC2.jpg">
+              <p id="caption">L Queries</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RC3.jpg">
+              <p id="caption">M Queries</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RC4.jpg">
+              <p id="caption">S Queries</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RC5.jpg">
+              <p id="caption">XS Queries</p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+  <script src="../../js/swing.js"></script>
+  <script src="../../js/script.js"></script>
+
+</body>
+</html>

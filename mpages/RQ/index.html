@@ -1,0 +1,117 @@
+<!--
+Card Metaphor for Mobile Webpage.
+Used for Kevin Cadena's Mobile Portfolio Project Display
+Check it Out at Kevincadena.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" type="text/css" href="../../css/card-style.css">
+    <script>
+      function BlockMove(event) {
+        event.preventDefault();
+      }
+    </script>
+    <script src="../../js/mobile-detect.min.js"></script>
+
+  </head>
+  <body ontouchmove="BlockMove(event);">
+    <div class="wrapper" id="deck-wrapper">
+      <div id="deck" class="deck">
+
+<!-- Title Card -->
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-title">RISD Quickies</div>
+
+            <div class="project-info">
+              <h3>Peer-to-Peer Workshops</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>RISD Quickies is a forum for student-led, student-taught workshops at the Rhode Island School of Design and Brown University. RISD Quickies was started 6 years ago and it's current iteration has been around for 3 years. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p> I was co-director with Elizabeth Goodspeed and a team consisting of Sonya Fayzieva & Molly Millette. RISD Quickies 2016 held a record-breaking 45 workshops taught by 36 different instructors and attended by 500 students.</p>
+            </div>
+          </div>
+        </div>
+
+<!--
+Empty Cards for images
+-->
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RQ1.jpg">
+              <p id="caption">RISD Quickies Logo</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RQ2.jpg">
+              <p id="caption">RISD Quickies Icons</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RQ3.jpg">
+              <p id="caption">RISD Quickies Icons</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RQ4.jpg">
+              <p id="caption"> Instructor's Manual</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RQ5.jpg">
+              <p id="caption">Schedule Poster</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/RQ6.jpg">
+              <p id="caption">Digital Assests</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p> Learn more about RISD Quickies <a href="risdquickies.org">here</a></p>
+            </div>
+          </div>
+        </div>
+
+  <script src="../../js/swing.js"></script>
+  <script src="../../js/script.js"></script>
+
+</body>
+</html>

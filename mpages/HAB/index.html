@@ -1,0 +1,106 @@
+<!--
+Card Metaphor for Mobile Webpage.
+Used for Kevin Cadena's Mobile Portfolio Project Display
+Check it Out at Kevincadena.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" type="text/css" href="../../css/card-style.css">
+    <script>
+      function BlockMove(event) {
+        event.preventDefault();
+      }
+    </script>
+    <script src="../../js/mobile-detect.min.js"></script>
+
+  </head>
+  <body ontouchmove="BlockMove(event);">
+    <div class="wrapper" id="deck-wrapper">
+      <div id="deck" class="deck">
+
+<!-- Title Card -->
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-title">Hack@Brown 2015</div>
+
+            <div class="project-info">
+              <h3>Designing for Brown's 2nd Annual Hack-a-thon</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>After a successful inaugural year, I joined Hack@Brown to work on their branding and design for the 2015 Hack-a-thon. It was up the 2015 Design team to firmly cement Hack@Brown's image against all the other Hack-a-thons. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/HAB1.jpg">
+              <p id="caption">H@B Logo</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/HAB2.jpg">
+              <p id="caption">2015 Website</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/HAB3.jpg">
+              <p id="caption">Code Poster</p>
+            </div>
+        </div>
+<!--
+Empty Cards for images
+-->
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/HAB4.jpg">
+              <p id="caption">Design Poster</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/HAB5.jpg">
+              <p id="caption">Hardware Poster</p>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>
+                <a href="https://medium.com/hack-at-brown/designing-hack-brown-2015-c05209586fcc#.ln8wsv89i" target="_blank">Read our Medium Write-Up</a> <br/>
+                <a href="http://2015.hackatbrown.org" target="_blank">Check out the 2015 Site</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+
+  <script src="../../js/swing.js"></script>
+  <script src="../../js/script.js"></script>
+
+</body>
+</html>

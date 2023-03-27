@@ -1,0 +1,76 @@
+<!--
+Card Metaphor for Mobile Webpage.
+Used for Kevin Cadena's Mobile Portfolio Project Display
+Check it Out at Kevincadena.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" type="text/css" href="../../css/card-style.css">
+    <script>
+      function BlockMove(event) {
+        event.preventDefault();
+      }
+    </script>
+    <script src="../../js/mobile-detect.min.js"></script>
+
+  </head>
+  <body ontouchmove="BlockMove(event);">
+    <div class="wrapper" id="deck-wrapper">
+      <div id="deck" class="deck">
+
+<!-- Title Card -->
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-title">Fuck Content</div>
+
+            <div class="project-info">
+              <h3>Web Native Rereading</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>One thing that interests me is experimenting with ways of consuming information on digital platform. Making the experience more unique and more tied to the content. For this project, I thought about how navigation controls would work for reading articles. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>Using Michael Rock's "Fuck Content" and following his mantra, the website's form and the way his text is laid out across it is my authorship to create a stronger connection between the audience and his essay. </p>
+            </div>
+          </div>
+        </div>
+
+<!--
+Empty Cards for images
+-->
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/FC1.jpg">
+              <p id="caption">Content Served in a Pan if you know what I mean.</p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+  <script src="../../js/swing.js"></script>
+  <script src="../../js/script.js"></script>
+
+</body>
+</html>

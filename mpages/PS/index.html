@@ -1,0 +1,96 @@
+<!--
+Card Metaphor for Mobile Webpage.
+Used for Kevin Cadena's Mobile Portfolio Project Display
+Check it Out at Kevincadena.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" type="text/css" href="../../css/card-style.css">
+    <script>
+      function BlockMove(event) {
+        event.preventDefault();
+      }
+    </script>
+    <script src="../../js/mobile-detect.min.js"></script>
+
+  </head>
+  <body ontouchmove="BlockMove(event);">
+    <div class="wrapper" id="deck-wrapper">
+      <div id="deck" class="deck">
+
+<!-- Title Card -->
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-title">Posters</div>
+
+            <div class="project-info">
+              <h3>Series of Posters Made over the last 3 Months</h3>
+            </div>
+          </div>
+        </div>
+
+<!--
+Empty Cards for images
+-->
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/PS1.jpg">
+              <p id="caption">Diptych Set (24' x 36')</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/PS2.jpg">
+              <p id="caption">Diptych Set (24' x 36')</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/PS3.jpg">
+              <p id="caption">Western Romance (18' x 24')</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/PS4.jpg">
+              <p id="caption">Hand (24' x 36')</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/PS5.jpg">
+              <p id="caption">Tux-phabet (30' x 40')</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/PS6.jpg">
+              <p id="caption">Portrait Posters (18' x 24')</p>
+            </div>
+        </div>
+
+
+        </div>
+
+        </div>
+    </div>
+
+  <script src="../../js/swing.js"></script>
+  <script src="../../js/script.js"></script>
+
+</body>
+</html>

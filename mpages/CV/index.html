@@ -1,0 +1,131 @@
+<!--
+Card Metaphor for Mobile Webpage.
+Used for Kevin Cadena's Mobile Portfolio Project Display
+Check it Out at Kevincadena.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" type="text/css" href="../../css/card-style.css">
+    <script>
+      function BlockMove(event) {
+        event.preventDefault();
+      }
+    </script>
+    <script src="../../js/mobile-detect.min.js"></script>
+
+  </head>
+  <body ontouchmove="BlockMove(event);">
+    <div class="wrapper" id="deck-wrapper">
+      <div id="deck" class="deck">
+
+<!-- Title Card -->
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-title">Citizen + Virtual</div>
+
+            <div class="project-info">
+              <h3>Workshop Series on Digital Citizenship</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>During the month of January, I directed a 5-Week Workshop Series between Brown University, Rhode Island School of Design, Massachusetts Institute of Technology, and Boston University called "Citizen + Virtual."
+ </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/CV1.jpg">
+              <p id="caption">Logo</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/CV2.jpg">
+              <p id="caption">Workshop Poster</p>
+            </div>
+        </div>
+
+       <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>The workshop was the third in the series and dealt with themes of Digital Citizenship.Each day consisted of theory workshops, skill-based workshops and a guest speaker from the area.
+ </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/CV3.jpg">
+              <p id="caption">Events Poster</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/CV4.jpg">
+              <p id="caption">Social Media Banners</p>
+            </div>
+        </div>
+
+       <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>Along with this, participants also partnered up into teams and worked on group based projects that ranged from commentary on decentralized identity on the internet to speculative futures about digital technology's effect on relationships.
+ </p>
+            </div>
+          </div>
+        </div>
+
+<!--
+Empty Cards for images
+-->
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/CV5.jpg">
+              <p id="caption">Separate Threads </p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p> Read more about Citizen + Virtual <a href="http://steamwith.us/citizenvirtual/index.html">Here.</a></p>
+
+              <p>Press for C+V: <br/>
+                <a href="http://our.risd.edu/post/139357713794/virtual-living">Our RISD</a> <br/>
+                <a href="http://steamstories.com/post/140836896092/the-internet-is-for-digital-citizenship#140836896092">STEAM Stories</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        </div>
+    </div>
+
+  <script src="../../js/swing.js"></script>
+  <script src="../../js/script.js"></script>
+
+</body>
+</html>

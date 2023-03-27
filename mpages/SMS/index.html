@@ -1,0 +1,109 @@
+<!--
+Card Metaphor for Mobile Webpage.
+Used for Kevin Cadena's Mobile Portfolio Project Display
+Check it Out at Kevincadena.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" type="text/css" href="../../css/card-style.css">
+    <script>
+      function BlockMove(event) {
+        event.preventDefault();
+      }
+    </script>
+    <script src="../../js/mobile-detect.min.js"></script>
+
+  </head>
+  <body ontouchmove="BlockMove(event);">
+    <div class="wrapper" id="deck-wrapper">
+      <div id="deck" class="deck">
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-title">Rethink SMS</div>
+
+            <div class="project-info">
+              <h3>Non-Disruptive Messaging</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p> The idea is an interpretation of Tristan Harris' Time Well Spent Manifesto to design interfaces that are more ethical and considerate to a person's needs and life. </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>Along with this another initiative of the project was to rethink how we can interact with the phone in ways more native and natural which is realized through the swipe based interface. </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <video controls loop>
+              <source src="../../img/SMS1.mp4">
+              </video>
+              <p id="caption">Set a Focus to queue messages</p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <video controls loop>
+              <source src="../../img/SMS2.mp4">
+              </video>
+              <p id="caption">When someone is in focus you'll be notified</p>
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <video controls loop>
+              <source src="../../img/DISRUPT.mp4">
+              </video>
+              <p id="caption">If it's an emergency, you can still let them know</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p><a href="http://share.framerjs.com/emlg4osdtmfe/">Check out our Prototype</a> <br/> <br/>
+               <a href="http://kevincadena.com/sms/">Read more about the Project here</a>
+               </p>
+            </div>
+          </div>
+        </div>
+        </div>
+<!--
+Empty Cards for images
+-->
+
+
+  <script src="../../js/swing.js"></script>
+  <script src="../../js/script.js"></script>
+
+</body>
+</html>

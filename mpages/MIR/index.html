@@ -1,0 +1,92 @@
+<!--
+Card Metaphor for Mobile Webpage.
+Used for Kevin Cadena's Mobile Portfolio Project Display
+Check it Out at Kevincadena.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" type="text/css" href="../../css/card-style.css">
+    <script>
+      function BlockMove(event) {
+        event.preventDefault();
+      }
+    </script>
+    <script src="../../js/mobile-detect.min.js"></script>
+
+  </head>
+  <body ontouchmove="BlockMove(event);">
+    <div class="wrapper" id="deck-wrapper">
+      <div id="deck" class="deck">
+
+<!-- Title Card -->
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-title">Mobile.IR</div>
+
+            <div class="project-info">
+              <h3>Mobile Tech Experimentation</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>The phone has a lot of untapped potential in how experiences on it may be completely unique from experiences on the computer. Mobile Research was a 3-week project in starting to experiment with phone sensors for the use of deviating more from computer conventions. </p>
+            </div>
+          </div>
+        </div>
+
+<!--
+Empty Cards for images
+-->
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/MIR1.gif">
+              <p id="caption">3D Space and Swiping</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/MIR2.gif">
+              <p id="caption">Card Metaphor</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/MIR3.gif">
+              <p id="caption">Layering</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>To view the full project go to <a href="http://mblresearch.info/" target="_blank">http://mblresearch.info/</a>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        </div>
+    </div>
+
+  <script src="../../js/swing.js"></script>
+  <script src="../../js/script.js"></script>
+
+</body>
+</html>

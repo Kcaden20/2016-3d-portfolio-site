@@ -1,0 +1,129 @@
+<!--
+Card Metaphor for Mobile Webpage.
+Used for Kevin Cadena's Mobile Portfolio Project Display
+Check it Out at Kevincadena.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" type="text/css" href="../../css/card-style.css">
+    <script>
+      function BlockMove(event) {
+        event.preventDefault();
+      }
+    </script>
+    <script src="../../js/mobile-detect.min.js"></script>
+
+  </head>
+  <body ontouchmove="BlockMove(event);">
+    <div class="wrapper" id="deck-wrapper">
+      <div id="deck" class="deck">
+
+<!-- Title Card -->
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-title">Make/Florence</div>
+
+            <div class="project-info">
+              <h3>Branding a Make-a-Thon in Italy</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>During my time at the MIT Mobile Experience Lab, I worked with researchers on the ReActive Project which was done in collaboration with Fondiazone TEMA. Re/Active dealt with trying to implement new prototyping methods into artisan communities. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>The project culminated in a Make-A-Thon in Florence, Italy for design students. I was tasked to come up with branding and identity of the make-a-thon. I ended up using a modified solidus to represent the Make-a-Thon. </p>
+            </div>
+          </div>
+        </div>
+
+<!--
+Empty Cards for images
+-->
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/ARC1.jpg">
+              <p id="caption">Solidus represents a strong joining</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p> The main colors, red and white are pulled directly from the Florence Flag. The type chosen was Hero Regular due to havingpractical and tradition values within typography but also  more modern </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/MF2.jpg">
+              <p id="caption">Logo Drafts</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/MF3.jpg">
+              <p id="caption">Final Colors</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-info">
+                <p> All of these design decisions come from what we were doing with the Re/Active Project through trying to create a strong joint between the new and the old in creating art  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/MF4.jpg">
+              <p id="caption">Poster (11" x 17")</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/MF5.jpg">
+              <p id="caption">Website</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/MF6.jpg">
+              <p id="caption">Banner (4' x 7')</p>
+            </div>
+        </div>
+
+
+  <script src="../../js/swing.js"></script>
+  <script src="../../js/script.js"></script>
+
+</body>
+</html>

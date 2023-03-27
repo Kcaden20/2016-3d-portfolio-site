@@ -1,0 +1,145 @@
+<!--
+Card Metaphor for Mobile Webpage.
+Used for Kevin Cadena's Mobile Portfolio Project Display
+Check it Out at Kevincadena.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="stylesheet" type="text/css" href="../../css/card-style.css">
+    <script>
+      function BlockMove(event) {
+        event.preventDefault();
+      }
+    </script>
+    <script src="../../js/mobile-detect.min.js"></script>
+
+  </head>
+  <body ontouchmove="BlockMove(event);">
+    <div class="wrapper" id="deck-wrapper">
+      <div id="deck" class="deck">
+
+<!-- Title Card -->
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+              <div class="project-title">Bumble</div>
+
+            <div class="project-info">
+              <h3>A Mobile Born Web Browser</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>In our class Computer Utopias, we were asked to look at two old programs; HyperCard and SmallTalk and figure out how they would work in today's smartphone era </p>
+            </div>
+          </div>
+        </div>
+
+<!--
+Empty Cards for images
+-->
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/BMB1.jpg">
+              <p id="caption">Hypercard</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>My group took on HyperCard as our spirit animal and thought a lot about how the conventions existing on the smartphone are computer conventions. We wanted to look at native mobile creation. </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <video controls loop>
+  <source src="../../img/demo.m4v">
+</video>
+              <p id="caption">Bumble Demo</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>Features of Bumble include: </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/BMB2.jpg">
+              <p id="caption">CARD Creation</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/BMB3.jpg">
+              <p id="caption">Hyperlinking</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-contents" id="img-container">
+              <img src="../../img/BMB4.jpg">
+              <p id="caption">Landscape Features</p>
+            </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>The final product takes into account all of questions and desires but also is considerate towards the trends and the way products work on the app market (such as an app that's too general and broad is bound to fail).  </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p>And as such is marketed towards the LARPING community as a way to create their own fictions. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-contents card-contents-visible">
+            <div class="project">
+            <div class="project-info">
+              <p><a href="http://kevincadena.com/Bumble/" target="_blank">View the final website here </a> <br/><br/><a href="http://buuuumble.tumblr.com/" target="_blank">Learn about our process here!</a></p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        </div>
+    </div>
+
+  <script src="../../js/swing.js"></script>
+  <script src="../../js/script.js"></script>
+
+</body>
+</html>
